@@ -1,9 +1,9 @@
-
+﻿
 public class ArrayTest2 {
 
 	public static void main(String[] args) {
 		// 洗牌
-		int[] poker = new int[52];
+		int[] poker = new int[26];
 		for (int i=0; i<poker.length; i++) poker[i] = i;
 		for (int i=0; i<poker.length; i++){
 			int tempi = (int)(Math.random()*(poker.length-i));
